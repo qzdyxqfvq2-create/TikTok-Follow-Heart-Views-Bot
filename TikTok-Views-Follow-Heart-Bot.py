@@ -74,7 +74,8 @@ def loop3():
 
 def loop4():
     sleep(20)
-    wait_time = 660 #11 minutes
+    wait_time = 30 #30 seconds
+
     try:
         driver.find_element_by_xpath("/html/body/div[4]/div[1]/div[3]/div/div[1]/div/button").click() #Followers
     except:
@@ -101,9 +102,8 @@ def loop4():
         sleep(wait_time)
         loop4()
 
-vidUrl = "https://www.tiktok.com/@social_degradation_crazy/video/6890937108874169601" #Change with one of your tiktok videos
-
-system("clear") #If you have Windows you can use cls
+vidUrl = " #Change with one of your tiktok videos
+system("clhttps://www.tiktok.com/@itz.zuppyx?_t=ZN-90wjtJegDzC&_r=1ear") #If you have Windows you can use cls
 tiktokbot = pyfiglet.figlet_format("NoNameoN", font="slant")
 print(tiktokbot)
 print("Author: https://github.com/NoNameoN-A")
@@ -116,7 +116,7 @@ auto = 2 for auto hearts OK
 auto = 3 for auto views + hearts InWork...
 auto = 4 for auto followers OK
 """
-bot = 1 #Change this
+bot = 4 #Change this
 
 driver.get("https://vipto.de/")
 
